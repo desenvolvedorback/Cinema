@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Convite Especial 🍧🌞</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      overflow-x: hidden;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3.2em;
+      color: #fff59d;
+      margin-bottom: 20px;
+      animation: pop 1.5s ease-in-out;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0); opacity: 0; }
+      80% { transform: scale(1.1); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+
+    p {
+      font-size: 1.4em;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      animation: fadeUp 1.5s ease-out;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 30px;
+      margin-top: 30px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      animation: slideIn 2s ease-in-out;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .emoji {
+      font-size: 2em;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 1em;
+      opacity: 0.8;
+      animation: fadeUp 2s ease-in;
+    }
+
+    .açai-img {
+      width: 100px;
+      animation: float 3s ease-in-out infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://cdn-icons-png.flaticon.com/512/1046/1046754.png" alt="Açaí" class="açai-img">
+    <h1>🍧 Convite Tropical 🍧</h1>
+    <p>Fala Sthe! 😄</p>
+    <p>Esse sábado, dia <strong>12 de julho</strong>, o rolê tá formado!</p>
+    
+    <div class="card">
+      <p><span class="emoji">🍓🍌🍇</span></p>
+      <p><strong>Vamos tomar um açaí top no Açaí da Barra</strong> com Kauane e Vini!</p>
+      <p>Riso, zoeira e açaí de respeito garantidos! 😋</p>
+    </div>
+
+    <div class="card">
+      <p><span class="emoji">🙏✝️</span></p>
+      <p>Depois do açaí, partiu Igreja pro nosso <strong>Crisma</strong>!</p>
+      <p>E claro, a <strong>Santa Missa das 18h</strong> pra fechar com bênção 🙌</p>
+    </div>
+
+    <p style="font-weight: bold;">Confirma com a gente e não fura hein! Vai ser da hora 💜</p>
+
+    <div class="footer">
+      — Te esperamos, com carinho,<br>
+      Kauane, Vini & Eu 😎
+    </div>
+  </div>
+</body>
+</html>
